@@ -646,7 +646,7 @@ tickAnimation:
   rts
 
 renderCharacter:
-  ;when you figure out how to load things from memory
+  
   lda player1_State, x
   and #1
   cmp #0
